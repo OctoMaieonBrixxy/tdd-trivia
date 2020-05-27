@@ -3,7 +3,7 @@
 const expect = require('chai').expect
 const Game = require('../game.js')
 
-describe('The test environment', () => {
+describe('Game', () => {
   it('should pass', () => {
     expect(true).to.be.true;
   })

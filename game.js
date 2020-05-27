@@ -13,6 +13,7 @@ const Game = function () {
   var isGettingOutOfPenaltyBox = false
 
   var didPlayerWin = function () {
+    // bug ?
     return !(purses[currentPlayer] == 6)
   }
 
